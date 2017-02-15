@@ -18,7 +18,7 @@ import com.sifast.model.User;
 @RestController
 @RequestMapping("/author")
 public class AuthorController {
-
+    //List of users
     ArrayList<User> users = new ArrayList<User>();
 
     @Autowired
